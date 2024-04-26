@@ -37,8 +37,13 @@
     "license": "AGPL-3.0",
     "homepage": "https://github.com/miroslavpejic85/mirotalk",
     "dependencies": {
+        "@maticnetwork/maticjs": "^3.8.2",
+        "@maticnetwork/walletconnect-provider": "^0.0.1-beta.1",
         "@sentry/integrations": "^7.112.1",
         "@sentry/node": "^7.112.1",
+        "@wagmi/connectors": "^4.2.0",
+        "@wagmi/core": "^2.7.0",
+        "@web3modal/wagmi": "^4.1.11",
         "axios": "^1.6.8",
         "body-parser": "^1.20.2",
         "colors": "^1.4.0",
@@ -55,6 +60,7 @@
         "socket.io": "^4.7.5",
         "swagger-ui-express": "^5.0.0",
         "uuid": "9.0.1",
+        "viem": "^2.9.28",
         "xss": "^1.0.15",
         "yamljs": "^0.3.0"
     },

@@ -1,5 +1,7 @@
 !(function () {
     'use strict';
+
+
     const e = document.getElementsByClassName('accordion-header');
 
     function t(e, t) {
